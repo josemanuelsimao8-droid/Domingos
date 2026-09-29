@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore imóveis em Lisboa e arredores com Domingos Cá. Filtre oportunidades por tipo, localização e preço.">
+  <title>Imóveis em Lisboa | Domingos Cá</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="css/styles.css">
+</head>
+<body><div data-site-header></div>
+<main class="page-main">
+  <section class="page-hero property-page-hero"><p class="eyebrow">SELEÇÃO DE IMÓVEIS · LISBOA</p><h1>Encontre o seu<br><em>próximo lugar.</em></h1><p class="page-lead">Explore a seleção e use os filtros para encontrar imóveis alinhados com o que procura.</p></section>
+  <section class="catalog section"><div class="section-label">CATÁLOGO</div>
+    <form class="property-filters" id="property-filters" role="search">
+      <label class="search-field">Pesquisar<input type="search" name="q" placeholder="Zona, tipologia ou palavra-chave" autocomplete="off"></label>
+      <label>Objetivo<select name="status"><option value="">Comprar ou arrendar</option><option value="Venda">Comprar</option><option value="Arrendamento">Arrendar</option></select></label>
+      <label>Tipo de imóvel<select name="type"><option value="">Todos os tipos</option><option value="Apartamento">Apartamento</option><option value="Moradia">Moradia</option><option value="Penthouse">Penthouse</option></select></label>
+      <label>Localização<select name="location"><option value="">Todas as zonas</option><option value="Lisboa">Lisboa</option><option value="Cascais">Cascais</option><option value="Sintra">Sintra</option></select></label>
+      <label>Preço<select name="price"><option value="">Qualquer preço</option><option value="under250">Até 250 000 €</option><option value="250to500">250 000 € – 500 000 €</option><option value="over500">Mais de 500 000 €</option></select></label>
+      <button class="filter-reset" type="reset">Limpar filtros</button>
+    </form>
+    <div class="catalog-summary"><p id="property-count" aria-live="polite"></p><span>Imóveis demonstrativos</span></div>
+    <div class="catalog-grid" id="property-grid" aria-live="polite"></div>
+    <p class="property-note">Os imóveis apresentados são exemplos demonstrativos para apresentação do catálogo. Preços, características e disponibilidade devem ser confirmados antes da publicação.</p>
+  </section>
+  <section class="page-cta"><p class="eyebrow">PROCURA ALGO ESPECÍFICO?</p><h2>Partilhe os seus<br><em>critérios comigo.</em></h2><a class="btn btn-light" href="#" data-whatsapp="Olá Domingos, procuro um imóvel em Lisboa e gostaria de partilhar consigo os meus critérios.">Falar sobre o que procuro ↗</a></section>
+</main><div data-site-footer></div><script src="js/properties.js"></script><script src="js/main.js"></script><script src="js/imoveis.js"></script></body></html>

@@ -1,0 +1,62 @@
+window.properties = [
+  {
+    id: 1,
+    title: "Apartamento luminoso junto ao jardim",
+    location: "Campo de Ourique, Lisboa",
+    city: "Lisboa",
+    price: 385000,
+    type: "Apartamento",
+    bedrooms: 2,
+    bathrooms: 2,
+    area: 112,
+    image: "assets/image.webp",
+    images: ["assets/image.webp", "assets/image (1).webp", "assets/image (2).webp"],
+    status: "Venda",
+    description: "Exemplo demonstrativo de um apartamento com áreas generosas e luz natural, numa zona residencial de Lisboa. Contacte para conversar sobre critérios e oportunidades semelhantes."
+  },
+  {
+    id: 2,
+    title: "Moradia contemporânea com jardim",
+    location: "Sintra",
+    city: "Sintra",
+    price: 625000,
+    type: "Moradia",
+    bedrooms: 4,
+    bathrooms: 3,
+    area: 245,
+    image: "assets/image (1).webp",
+    images: ["assets/image (1).webp", "assets/image (2).webp", "assets/image.webp"],
+    status: "Venda",
+    description: "Exemplo demonstrativo de uma moradia familiar com espaço exterior. A informação e a disponibilidade são ilustrativas e carecem de confirmação."
+  },
+  {
+    id: 3,
+    title: "Apartamento renovado no centro",
+    location: "Arroios, Lisboa",
+    city: "Lisboa",
+    price: 1750,
+    type: "Apartamento",
+    bedrooms: 1,
+    bathrooms: 1,
+    area: 68,
+    image: "assets/image (2).webp",
+    images: ["assets/image (2).webp", "assets/image.webp", "assets/image (1).webp"],
+    status: "Arrendamento",
+    description: "Exemplo demonstrativo de um apartamento para arrendamento, com localização central e acesso a comércio e transportes. Consulte condições atualizadas."
+  },
+  {
+    id: 4,
+    title: "Penthouse com terraço amplo",
+    location: "Cascais",
+    city: "Cascais",
+    price: 890000,
+    type: "Penthouse",
+    bedrooms: 3,
+    bathrooms: 2,
+    area: 178,
+    image: "assets/image.webp",
+    images: ["assets/image.webp", "assets/image (2).webp", "assets/image (1).webp"],
+    status: "Venda",
+    description: "Exemplo demonstrativo de uma penthouse com terraço e áreas amplas, na zona de Cascais. Características e preço são dados de exemplo."
+  }
+];
